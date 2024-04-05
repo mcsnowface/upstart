@@ -63,19 +63,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
-  <li><a href="#experimental-design" id="toc-experimental-design" class="nav-link" data-scroll-target="#experimental-design"><span class="header-section-number">2</span> Experimental design</a>
+  <li><a href="#disclaimer" id="toc-disclaimer" class="nav-link active" data-scroll-target="#disclaimer"><span class="header-section-number">1</span> Disclaimer</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">2</span> Introduction</a></li>
+  <li><a href="#experimental-design" id="toc-experimental-design" class="nav-link" data-scroll-target="#experimental-design"><span class="header-section-number">3</span> Experimental design</a>
   <ul class="collapse">
-  <li><a href="#randomization" id="toc-randomization" class="nav-link" data-scroll-target="#randomization"><span class="header-section-number">2.1</span> Randomization</a></li>
-  <li><a href="#replication" id="toc-replication" class="nav-link" data-scroll-target="#replication"><span class="header-section-number">2.2</span> Replication</a></li>
-  <li><a href="#sec-blocking" id="toc-sec-blocking" class="nav-link" data-scroll-target="#sec-blocking"><span class="header-section-number">2.3</span> Blocking</a></li>
+  <li><a href="#randomization" id="toc-randomization" class="nav-link" data-scroll-target="#randomization"><span class="header-section-number">3.1</span> Randomization</a></li>
+  <li><a href="#replication" id="toc-replication" class="nav-link" data-scroll-target="#replication"><span class="header-section-number">3.2</span> Replication</a></li>
+  <li><a href="#sec-blocking" id="toc-sec-blocking" class="nav-link" data-scroll-target="#sec-blocking"><span class="header-section-number">3.3</span> Blocking</a></li>
   </ul></li>
-  <li><a href="#example-1-estimate-the-effect-of-thinning-on-diameter-growth-of-white-spruce-in-boreal-mixedwood-stands" id="toc-example-1-estimate-the-effect-of-thinning-on-diameter-growth-of-white-spruce-in-boreal-mixedwood-stands" class="nav-link" data-scroll-target="#example-1-estimate-the-effect-of-thinning-on-diameter-growth-of-white-spruce-in-boreal-mixedwood-stands"><span class="header-section-number">3</span> Example 1: Estimate the effect of thinning on diameter growth of white spruce in boreal mixedwood stands</a>
+  <li><a href="#sec-ex1" id="toc-sec-ex1" class="nav-link" data-scroll-target="#sec-ex1"><span class="header-section-number">4</span> Example 1: Estimate the effect of thinning on diameter growth in lodgepole pine stands</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><span class="header-section-number">3.1</span> Overview</a></li>
-  <li><a href="#randomized-complete-block-design" id="toc-randomized-complete-block-design" class="nav-link" data-scroll-target="#randomized-complete-block-design"><span class="header-section-number">3.2</span> Randomized Complete Block Design</a></li>
-  <li><a href="#statistical-analyses" id="toc-statistical-analyses" class="nav-link" data-scroll-target="#statistical-analyses"><span class="header-section-number">3.3</span> Statistical analyses</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><span class="header-section-number">4.1</span> Overview</a></li>
+  <li><a href="#randomized-complete-block-design" id="toc-randomized-complete-block-design" class="nav-link" data-scroll-target="#randomized-complete-block-design"><span class="header-section-number">4.2</span> Randomized Complete Block Design</a></li>
   </ul></li>
+  <li><a href="#sec-ex2" id="toc-sec-ex2" class="nav-link" data-scroll-target="#sec-ex2"><span class="header-section-number">5</span> Example 2: Estimate the effect of site preparation and vegetation management on seedling survival in cutblock reforestation</a>
+  <ul class="collapse">
+  <li><a href="#overview-1" id="toc-overview-1" class="nav-link" data-scroll-target="#overview-1"><span class="header-section-number">5.1</span> Overview</a></li>
+  <li><a href="#split-plot-design" id="toc-split-plot-design" class="nav-link" data-scroll-target="#split-plot-design"><span class="header-section-number">5.2</span> Split-plot design</a></li>
+  </ul></li>
+  <li><a href="#statistical-analyses" id="toc-statistical-analyses" class="nav-link" data-scroll-target="#statistical-analyses"><span class="header-section-number">6</span> Statistical analyses</a></li>
   </ul>
 </nav>
 </div>
@@ -105,8 +111,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <!-- ![](https://imgs.xkcd.com/comics/sphere_tastiness.png) -->
-<section id="introduction" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<section id="disclaimer" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="disclaimer"><span class="header-section-number">1</span> Disclaimer</h2>
+<p>The following text represents a <strong><em>draft</em></strong> and is necessarily not complete. It requires input from various forestry practitioners to guide the authors of this text with more adequate examples pertaining to forestry. The purpose of this text is to provide a for further development and discussion.</p>
+</section>
+<section id="introduction" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="introduction"><span class="header-section-number">2</span> Introduction</h2>
 <p>The objective of this work is to provide the members of the Forest Growth Organization of Western Canada (FGrOW) with guidelines for the design and implementation of silvicultural experiments. These experimental design considerations are adaptable to the given location and scalable to the needs of the individual member.</p>
 <p>This document is split into three main sections:</p>
 <ol type="1">
@@ -115,8 +125,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>A data dictionary that explains all terminology</p></li>
 </ol>
 </section>
-<section id="experimental-design" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="experimental-design"><span class="header-section-number">2</span> Experimental design</h2>
+<section id="experimental-design" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="experimental-design"><span class="header-section-number">3</span> Experimental design</h2>
 <p>In its most fundamental form, an experiment can be described as the intentional manipulation of input variables through defined treatments or interventions, resulting in a specific output or response. The objective of designed experiments is to understand cause-and-effect relationships between input and output variables using statistical models. The input variables are also referred to as <em>predictor</em> or <em>independent variables</em>, while the output variables are termed <em>response</em> or <em>dependent variables</em>. It is often helpful to draw a causal diagram to visualize this relationship. In <a href="#fig-dag1">Figure&nbsp;1</a> the causal relationship of <span class="math inline">X</span> on <span class="math inline">Y</span> is described. The black dots represent variables and the fact that variable <span class="math inline">X</span> causes variable <span class="math inline">Y</span> to change is indicated by the direction of the arrow. This also means that <span class="math inline">Y</span> cannot change the value of <span class="math inline">X</span>.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -146,44 +156,60 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Blocking</p></li>
 </ol>
 <p>In the following sections, we will provide a brief summary of these design principles and then applying them to a more detailed hypothetical example.</p>
-<section id="randomization" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="randomization"><span class="header-section-number">2.1</span> Randomization</h3>
+<section id="randomization" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="randomization"><span class="header-section-number">3.1</span> Randomization</h3>
 <p>Randomization refers to the process of randomizing individuals into treatments as well as randomizing the order of the treatment application. For example, one could randomize seedlings into fertilizer treatments and the order of fertilizer treatments across study locations. The two major goals of randomization are to <strong><em>minimize systematic errors</em></strong> (bias) and to ensure <strong><em>independent observations</em></strong>, the latter being a key assumption for many statistical tests. Depending on the experiment, complete randomization might not always be feasible due to cost, time and space constraints. For most of those cases, however, there are experimental designs that can handle those situations and we will see examples later.</p>
 </section>
-<section id="replication" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="replication"><span class="header-section-number">2.2</span> Replication</h3>
-<p>In order to quantify the experimental error associated for each treatment combination, one needs replicate measurements. This is important because the estimated experimental error, known as the <strong><em>standard error of the mean</em></strong>, plays a key role in statistical hypothesis testing. Another important reason why sufficient replication is required, is to gain <strong><em>precise estimates of the unknown population parameters</em></strong> from which the samples were drawn. The question as to how many replicates are sufficient depends on the research question and the design of the experiment. In general, however, aiming for 10 replicates in each treatment combination is a good start during the design stage of the experiment. That being said, before the experiment is started, it is crucial to consult with a statistician or statistical expert to ensure the design is capable of informing the research questions. To quote Sir Ronald Fisher (1938)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>:</p>
+<section id="replication" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="replication"><span class="header-section-number">3.2</span> Replication</h3>
+<p>In order to quantify the experimental error associated for each treatment combination, one needs replicate measurements. This is important because the estimated experimental error, known as the <strong><em>standard error of the mean</em></strong>, plays a key role in statistical hypothesis testing. Another important reason why sufficient replication is required, is to gain <strong><em>precise estimates of the unknown population parameters</em></strong> from which the samples were drawn. The question as to how many replicates are sufficient depends on the research question and the design of the experiment. In general, however, aiming for 10 replicates in each treatment combination is a good start during the design stage of the experiment. Another consideration is much mortality is expected. When the experiment ends, one need to have enough samples left within each treatment group to infer meaningful results from the data. That being said, before the experiment is started, it is important to consult with a statistician or statistical expert to ensure the design is capable of informing the research questions. To quote Sir Ronald Fisher (1938)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>:</p>
 <blockquote class="blockquote">
 <p>To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of.</p>
 </blockquote>
 </section>
-<section id="sec-blocking" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="sec-blocking"><span class="header-section-number">2.3</span> Blocking</h3>
+<section id="sec-blocking" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="sec-blocking"><span class="header-section-number">3.3</span> Blocking</h3>
 <p>The primary reason for blocking is to reduce or eliminate unmeasured variability due to topography, moisture, aspect etc. These unmeasured variables are also known as nuisance factors. Blocking accomplishes this by breaking up larger heterogeneous experimental conditions into smaller relatively homogeneous experimental conditions in which the experimental treatments are replicated. This captures the unmeasured variability and increases the precision with which comparisons among the factors of interest are made. To be effective for statistical testing, it is suggested to have a minimum of six blocks within the experiment. This is needed in order to sufficiently quantify block to block variation.</p>
 </section>
 </section>
-<section id="example-1-estimate-the-effect-of-thinning-on-diameter-growth-of-white-spruce-in-boreal-mixedwood-stands" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="example-1-estimate-the-effect-of-thinning-on-diameter-growth-of-white-spruce-in-boreal-mixedwood-stands"><span class="header-section-number">3</span> Example 1: Estimate the effect of thinning on diameter growth of white spruce in boreal mixedwood stands</h2>
-<section id="overview" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">3.1</span> Overview</h3>
-<p>Consider a scenario where we aim to understand the relationship between four thinning treatments (no thinning, 500, 1000, 2000 stems h<span class="math inline">^{-1}</span>) and their impact on the diameter at breast height (DBH) of white spruce in a mixedwood forest stand.</p>
-<p>The initial step involves identifying the <strong><em>specific area of interest</em></strong> to which one intends to extend the findings. If the focus is on a mixedwood stand near Edson, the experiment’s conclusions will be applicable solely to this particular mixedwood stand near Edson where the thinning treatment was applied. However, if the target is the Lower Foothills natural subregion, multiple treatment plots must be established within that subregion. In order for the study results to be as unbiased as possible, the location for the treatment plots should be chosen <strong><em>randomly</em></strong> rather than “conveniently.” Admittedly, achieving this assumption in large-scale forestry operations is not always straightforward. In such cases, any decision regarding why certain plots could not be chosen randomly has to be clearly documented.</p>
-<p>At the level of the study location, one can generally assume that the chosen areas are not perfectly homogeneous with respect to the growing conditions and which can lead to bias in the estimates. Bias refers to systematic error introduced into sampling or testing by selecting or encouraging one outcome or a group of outcomes over others. This can lead to distorted or inaccurate results.</p>
-<p>One way of controlling for such unwanted effects is by <strong><em>randomizing</em></strong> treatment plots across the area of interest. If the area is small, this may be sufficient. However, in most cases when studying slivicultural interventions, the required area is quite large containing a great amount of variability in it (topography, moisture, aspect, etc.). In such cases, it is recommended to replicate the randomized thinning treatments into <strong><em>blocks</em></strong> across the larger area of interest (see <a href="#sec-blocking">Section&nbsp;2.3</a>).</p>
+<section id="sec-ex1" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="sec-ex1"><span class="header-section-number">4</span> Example 1: Estimate the effect of thinning on diameter growth in lodgepole pine stands</h2>
+<section id="overview" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">4.1</span> Overview</h3>
+<p>Consider a scenario where we aim to understand the relationship between four thinning treatments (no thinning, 500, 1000, 2000 stems h<span class="math inline">^{-1}</span>) and their impact on diameter growth (DBH) in lodgepole pine stands.</p>
+<p>The initial step involves identifying the <strong><em>specific area of interest</em></strong> to which one intends to extend the findings. If the focus is on a lodgepole pine stand near Edson, the experiment’s conclusions will be applicable solely to this particular lodgepole pine stand near Edson where the thinning treatment was applied. However, if the target is the Lower Foothills natural subregion, multiple treatment plots must be established within that subregion. In order for the study results to be as unbiased as possible, the location for the treatment plots should be chosen <strong><em>randomly</em></strong> rather than “conveniently”. Admittedly, achieving this assumption in large-scale forestry operations is not always straightforward. In such cases, any decision regarding why certain plots could not be chosen randomly has to be clearly documented.</p>
+<p>At the study location level, one can generally assume that the chosen areas are not perfectly homogeneous with respect to the growing conditions, which can lead to bias in the estimates. Bias refers to systematic error introduced into sampling or testing by selecting or encouraging one outcome or a group of outcomes over others. This can lead to distorted or inaccurate results.</p>
+<p>One way of controlling for such unwanted effects is by <strong><em>randomizing</em></strong> treatment plots across the area of interest. If the area is small, this may be sufficient. However, in most cases when studying silvicultural interventions, the required area is quite large and contains a great amount of variability (topography, moisture, aspect, etc.). In such cases, it is recommended to replicate the randomized thinning treatments into <strong><em>blocks</em></strong> across the larger area of interest (see <a href="#sec-blocking">Section&nbsp;3.3</a>).</p>
 </section>
-<section id="randomized-complete-block-design" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="randomized-complete-block-design"><span class="header-section-number">3.2</span> Randomized Complete Block Design</h3>
-<p>Suppose a decision was made to estimate the effect of thinning in mixedwood stands in the Lower Foothills subregion. Ten target sites have been identified, which adequately represent the site diversity in the Lower Foothills subregion. Due to the observed variability within the sites, the thinning treatments are replicated in six blocks. Each block consists of four thinning treatments, i.e.&nbsp;no thinning, 500, 1000, and 2000 stems h<span class="math inline">^{-1}</span>, applied to 500 m<span class="math inline">^2</span> plots. The order of the thinning treatment plots within the blocks is randomized. We call this a randomized complete block design (or RCBD).</p>
+<section id="randomized-complete-block-design" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="randomized-complete-block-design"><span class="header-section-number">4.2</span> Randomized Complete Block Design</h3>
+<p>Suppose a decision was made to estimate the effect of thinning in lodgepole pine stands in the Lower Foothills subregion. Ten target sites have been identified, adequately representing the site diversity in the Lower Foothills subregion. Due to observed variability within the sites, thinning treatments are replicated in six blocks. Each block consists of four thinning treatments: no thinning, 500, 1000, and 2000 stems h<span class="math inline">^{-1}</span>, applied to 500 m<span class="math inline">^2</span> plots. The order of the thinning treatment plots within the blocks is randomized. This experimental setup is commonly referred to as a randomized complete block design (RCBD).</p>
 <p>In an RCBD:</p>
 <p><strong>Blocks</strong>: The experimental units, in this case the 500 m<span class="math inline">^2</span> plots, are grouped into blocks based on some relevant characteristic that is expected to affect the response variable. For example, variations in soil type or other environmental factors and gradients. If gradients are present then the blocks should be oriented perpendicular to the gradient and not parallel. For example, if we are studying the effect of soil moisture on plant growth along a gradient of elevation, arranging the experimental blocks perpendicular to the elevation gradient would allow for better control and assessment of the variation in soil moisture levels across the gradient.</p>
 <p><strong>Randomization</strong>: Within each block, treatments are randomly assigned to experimental units. Randomization helps to minimize the effects of confounding variables and ensures that any differences observed between treatments are likely due to the treatments themselves rather than other factors.</p>
 <p><strong>Completeness</strong>: Each treatment is applied to every block, ensuring that every treatment is represented in each block. This allows for direct comparison of treatments within each block, reducing the impact of variation between blocks.</p>
 <p>Overall, an RCBD is a flexible and efficient design that allows to control for sources of variation, such as environmental factors or other potential confounding variables, thereby improving the reliability and validity of their experimental results.</p>
 </section>
-<section id="statistical-analyses" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="statistical-analyses"><span class="header-section-number">3.3</span> Statistical analyses</h3>
-<p>When it comes to the analysis of RCBDs, or in general of all designs that are characterized by spatial or temporal correlation among the experimental units, linear- and generalized linear mixed effects models are the preferred tool.</p>
 </section>
+<section id="sec-ex2" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="sec-ex2"><span class="header-section-number">5</span> Example 2: Estimate the effect of site preparation and vegetation management on seedling survival in cutblock reforestation</h2>
+<section id="overview-1" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="overview-1"><span class="header-section-number">5.1</span> Overview</h3>
+<p>Suppose the objective is to ascertain the impact of <em>site preparation</em> and <em>vegetation management</em>, as well as their potential interaction, on white spruce seedling survival in cutblocks within the central mixedwood natural subregion. Site preparation comprises three levels: control, ripping, and mounding, while vegetation management encompasses two levels: control and herbicide application.</p>
+<p>Similar to the previous example, it is essential to select a representative number of randomly chosen sites to ensure generalizability across the broader area of interest. Subsequently, the experimental design needs to incorporate the two treatment factors, site preparation, and herbicide application.</p>
+</section>
+<section id="split-plot-design" class="level3" data-number="5.2">
+<h3 data-number="5.2" class="anchored" data-anchor-id="split-plot-design"><span class="header-section-number">5.2</span> Split-plot design</h3>
+<p>In a strictly randomized complete block design, all treatment level combinations are randomized within each block. However, in experiments involving treatments that require heavy machinery or larger-scale application, such as bulldozing for site preparation, implementing such treatments on a small scale might not be feasible. In such cases, a different design, known as the split-plot design, can be employed.</p>
+<p>The main difference lies in the arrangement of treatment factors. The <strong>main plot</strong> encompasses the treatment applied on the larger scale, such as site preparation, while the second treatment factor, referred to as <strong>split plots</strong>, is superimposed onto the main plot. Since the main plot treatments are confounded with the main plots themselves (i.e., not randomized across the area of interest), while the split plots are not, ideally, the more significant treatment should be assigned to the split plots if possible.</p>
+</section>
+</section>
+<section id="statistical-analyses" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="statistical-analyses"><span class="header-section-number">6</span> Statistical analyses</h2>
+<p>In the analysis of randomized complete block designs, split-plot designs, and other experimental designs characterized by spatial or temporal correlation among experimental units, linear- and generalized linear mixed effects models (LMM, GLMM) are the preferred analytical tools. Mixed-effects models, also known as hierarchical or multilevel models, are adept at handling various issues such as imbalanced designs or spatial/temporal correlation.</p>
+<p>While the fixed effects part of these models captures the effects of primary interest, i.e., the effects one seeks to estimate, the random effects part identifies the cluster structure within which replicates are grouped. This cluster structure accounts for the correlation among observations within the same cluster, offering a more accurate representation of the underlying data structure.</p>
+<p>Consider the previous two examples, in (<a href="#sec-ex1">Section&nbsp;4</a>), <em>site</em> and <em>block</em> are the grouping variables that include trees that are likely to behave more similarly than trees from a different site-block combination. So the random effects term in this model would be <strong>site</strong> and <strong>block</strong> since each block-site combination requires its own error estimation. A model specified in this way would account for the potential spatial dependency of trees in this particular given design.</p>
+<p>On the other hand, in (<a href="#sec-ex2">Section&nbsp;5</a>), we also have to consider the <em>main plot</em> since we can assume that split-plots in a given main plot will behave more similarly compared to split-plots in the other main plots. So in this example we would have <strong>site</strong> and <strong>block</strong> as well as <strong>main plot</strong>.</p>
 </section>
 
 
