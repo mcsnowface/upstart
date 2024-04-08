@@ -13,7 +13,7 @@ format:
 
 <!-- ![](https://imgs.xkcd.com/comics/sphere_tastiness.png) -->
 ## Disclaimer
-The following text represents a ***draft*** and is necessarily not complete. It requires input from various forestry practitioners to guide the authors of this text with more adequate examples pertaining to forestry. The purpose of this text is to provide a for further development and discussion. 
+The following text represents a ***draft***, which is not completed and work in progress. It requires input from various forestry practitioners to guide the authors of this text with more adequate examples pertaining to forestry. The purpose of this text is to provide a start for further development and discussion. 
 
 
 ## Introduction
