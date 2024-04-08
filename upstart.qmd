@@ -11,7 +11,6 @@ format:
    css: styles.css
 ---
 
-<!-- ![](https://imgs.xkcd.com/comics/sphere_tastiness.png) -->
 ## Disclaimer
 The following text represents a ***draft***, which is not completed and work in progress. It requires input from various forestry practitioners to guide the authors of this text with more adequate examples pertaining to forestry. The purpose of this text is to provide a start for further development and discussion. 
 
